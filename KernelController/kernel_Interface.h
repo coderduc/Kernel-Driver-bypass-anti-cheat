@@ -68,8 +68,6 @@ public:
 		return Buffer;
 	}
 
-	//https://guidedhacking.com/threads/how-to-write-memory-from-kernel-mmcopyvirtualmemory-tutorial.15883/
-
 	template <typename type>
 	bool WriteVirtualMemory(ULONG ProcessId, ULONG WriteAddress, type WriteValue, SIZE_T Size)
 	{
